@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/* Style the title class */
 .title {
     background-color: beige;
     border: 10px ridge green;

@@ -1,7 +1,13 @@
 * {
     box-sizing: border-box;
 }
-  
+
+.title {
+    background-color: beige;
+    border: 10px ridge green;
+    padding: 20px;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }

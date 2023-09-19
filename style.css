@@ -1,6 +1,7 @@
 .title {
     background-color: beige;
     border: 10px ridge green;
+    padding: 20px;
 }
 
 * {

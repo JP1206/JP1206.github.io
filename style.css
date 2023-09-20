@@ -33,10 +33,10 @@ nav ul {
 
 .cities_page {
     list-style-type: none;
-    padding: 30px;
+    padding-bottom: 302px;  /* might need to change */
     line-height: 25px;
 }
-  
+
 article {
     float: left;
     padding: 38px;
@@ -53,6 +53,18 @@ article {
 
 .b1 {
     font-weight: bolder;
+}
+
+.b1:hover {
+    /* Pseudo class */
+    /* This is when hovered by mouse */
+    color:darkblue;
+    opacity: 0.9;
+}
+
+.b1:active {
+    /* This is when clicked */
+    color:gold;
 }
 
 .secret_easter_egg {

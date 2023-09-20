@@ -19,7 +19,7 @@ header {
 nav {
     float: left;
     width: 15%;
-    height: 500px;  /* Change later */
+    height: auto;  /* Change later */
     background: #ccc;
     padding: 20px;
 }
@@ -28,15 +28,35 @@ nav {
 nav ul {
     list-style-type: none;
     padding: 0;
+    line-height: 25px;
+}
+
+.cities_page {
+    list-style-type: none;
+    padding: 30px;
+    line-height: 25px;
 }
   
 article {
     float: left;
-    padding: 20px;
+    padding: 38px;
     width: 85%;
     background-color: #f1f1f1;
     line-height: 20px;
-    height: 500px; /* Change later */
+    height: auto; /* Change later */
+}
+
+.list {
+    line-height: 27px;  /* static declaration, might need to change */
+    margin: auto;
+}
+
+.b1 {
+    font-weight: bolder;
+}
+
+.secret_easter_egg {
+    color: #f1f1f1;
 }
   
 /* Clear floats after the columns */

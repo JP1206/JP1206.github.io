@@ -11,15 +11,15 @@ header {
     background-color:darkslategrey;
     padding: 10px;
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
     color: white;
 }
   
 /* Create two columns/boxes that floats next to each other */
 nav {
     float: left;
-    width: 15%;
-    height: auto;  /* Change later */
+    width: 20%;
+    height: 80vh;  /* Change later */
     background: #ccc;
     padding: 20px;
 }
@@ -31,6 +31,18 @@ nav ul {
     line-height: 25px;
 }
 
+.navBarLine {
+    padding: 3%;
+    background-color: goldenrod;
+    color: white;
+    text-decoration: none;  /* removes the underline under the anchor tag*/
+}
+
+.navBarLine:hover {
+    background-color: rgb(163, 108, 6);
+    transition: 0.3s;
+}
+
 .cities_page {
     list-style-type: none;
     padding-bottom: 302px;  /* might need to change */
@@ -40,10 +52,10 @@ nav ul {
 article {
     float: left;
     padding: 38px;
-    width: 85%;
+    width: 80%;
     background-color: #f1f1f1;
     line-height: 20px;
-    height: auto; /* Change later */
+    height: 80vh; /* Change later */
 }
 
 .list {
@@ -84,6 +96,17 @@ footer {
     padding: 10px;
     text-align: center;
     color: white;
+}
+
+.buttonCSS {
+    padding: 7px;
+    background-color: goldenrod;
+    color: white;
+    text-decoration: none;  /* removes the underline under the anchor tag*/
+}
+
+.buttonCSS:hover {
+    background-color: rgb(163, 108, 6);
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */

@@ -19,16 +19,16 @@ header {
 nav {
     float: left;
     width: 20%;
-    height: 80vh;  /* Change later */
     background: #ccc;
     padding: 20px;
+    height: 125vh;  /* Change later */
 }
   
 /* Style the list inside the menu */
 nav ul {
     list-style-type: none;
     padding: 0;
-    line-height: 25px;
+    line-height: 15px;
 }
 
 .navBarLine {
@@ -55,7 +55,7 @@ article {
     width: 80%;
     background-color: #f1f1f1;
     line-height: 20px;
-    height: 80vh; /* Change later */
+    height: 125vh; /* Change later */
 }
 
 .list {

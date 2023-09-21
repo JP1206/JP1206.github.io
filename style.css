@@ -109,6 +109,19 @@ footer {
     background-color: rgb(163, 108, 6);
 }
 
+/* Car listing styles */
+.car-listing {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.car-listing img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
     nav, article {

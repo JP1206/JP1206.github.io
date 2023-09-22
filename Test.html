@@ -57,3 +57,66 @@
     </script>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Layout Example</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-columns: 1fr 3fr; /* Two columns, sidebar and main content */
+            grid-template-rows: auto 1fr auto; /* Header, main content, and footer */
+            grid-template-areas:
+                "header header"
+                "sidebar main"
+                "footer footer";
+            height: 100vh; /* Make the grid cover the full viewport height */
+            margin: 0; /* Remove default body margin */
+        }
+
+        .header {
+            grid-area: header; /* Place the header in the "header" area */
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+
+        .sidebar {
+            grid-area: sidebar; /* Place the sidebar in the "sidebar" area */
+            background-color: #555;
+            color: white;
+            padding: 10px;
+        }
+
+        .main {
+            grid-area: main; /* Place the main content in the "main" area */
+            padding: 20px;
+        }
+
+        .article {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .footer {
+            grid-area: footer; /* Place the footer in the "footer" area */
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">Header</header>
+    <nav class="sidebar">Sidebar</nav>
+    <main class="main">
+        <article class="article">Article Content</article>
+    </main>
+    <footer class="footer">Footer</footer>
+</body>
+</html>

@@ -56,23 +56,24 @@ article {
     background-color: #f1f1f1;
     line-height: 20px;
     height: 80vh; /* Change later */
-    overflow: hidden;
 }
 
 .shoppage_intro {
     line-height: 25px;
+    overflow: auto;
 }
 
 .car_container {
     max-width: auto;
     margin: 0 auto;
-    overflow: hidden; /* Clear floats inside the container */
+    overflow: auto; /* Clear floats inside the container */
 }
 
 .car_container img {
     width: 50%;
     float: left;
     margin: 3%;
+    max-width: 50%;
 }
 
 .left-article {
@@ -119,6 +120,7 @@ article {
     color:gold;
 }
 
+/* Don't go looking for secrets now ok? ;)*/
 .secret_easter_egg {
     color: #f1f1f1;
 }
@@ -162,6 +164,11 @@ footer {
     width: 500px;
     height: 400px;
     overflow: auto; /* Add scroll bar if content overflows */
+}
+
+/* CSS control for the image in "View Details" button */
+.popup-container img {
+    max-block-size: 85%;
 }
 
 /* CSS for the overlay background */

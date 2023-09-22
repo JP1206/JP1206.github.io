@@ -35,6 +35,7 @@ nav ul {
     padding: 3%;
     background-color: goldenrod;
     color: white;
+    margin: 3px;
     text-decoration: none;  /* removes the underline under the anchor tag*/
 }
 

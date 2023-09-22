@@ -158,8 +158,8 @@ footer {
     border: 1px solid #ccc;
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 400px;
     overflow: auto; /* Add scroll bar if content overflows */
 }
 

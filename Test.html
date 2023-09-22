@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Button Click Popup</title>
+    <style>
+        /* CSS for the popup box */
+        .popup-container {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <button class="show-popup-button">Click Me to Show Popup</button>
+
+    <!-- Popup container -->
+    <div class="popup-container">
+        <p>This is the popup box with text.</p>
+        <button class="close-popup-button">Close</button>
+    </div>
+    
+    <button class="show-popup-button">Click Me to Show Popup</button>
+    <script>
+        // Get references to the elements using classes
+        const showPopupButtons = document.querySelectorAll('.show-popup-button');
+        const closePopupButtons = document.querySelectorAll('.close-popup-button');
+        const popupContainers = document.querySelectorAll('.popup-container');
+
+        // Function to show the popup
+        function showPopup() {
+            popupContainers.forEach(container => {
+                container.style.display = 'block';
+            });
+        }
+
+        // Function to close the popup
+        function closePopup() {
+            popupContainers.forEach(container => {
+                container.style.display = 'none';
+            });
+        }
+
+        // Attach event listeners to the buttons
+        showPopupButtons.forEach(button => {
+            button.addEventListener('click', showPopup);
+        });
+        closePopupButtons.forEach(button => {
+            button.addEventListener('click', closePopup);
+        });
+    </script>
+</body>
+</html>

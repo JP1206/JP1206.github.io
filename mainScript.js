@@ -27,3 +27,7 @@ showPopupButtons.forEach(button => {
 closePopupButtons.forEach(button => {
     button.addEventListener('click', closePopup);
 });
+
+function showAlertS() {
+    alert("I'm sorry, headphone warning, prank incoming");
+}

@@ -56,6 +56,7 @@ article {
     background-color: #f1f1f1;
     line-height: 20px;
     height: 80vh; /* Change later */
+    overflow: scroll;
 }
 
 .shoppage_intro {
